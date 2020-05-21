@@ -1,0 +1,5 @@
+{
+  "website": "https://rifabackend.herokuapp.com",
+  "emailVerifiyLink": "http://domain.co.uk?page=email-verify&verify_code=#!pin!#&email=#!email!#",
+  "passwordResetLink": "http://domain.co.uk?page=password-reset&verify_code="
+}

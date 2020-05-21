@@ -1,0 +1,45 @@
+{
+  "db": {
+    "host": "",
+    "port": 0,
+    
+    "url": "mongodb://brendo:brendo1996@cluster0-shard-00-00-f3jqu.mongodb.net:27017,cluster0-shard-00-01-f3jqu.mongodb.net:27017,cluster0-shard-00-02-f3jqu.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority",
+    "database": "riffa",
+    "password": "brendo1996",
+    "name": "db",
+    "user": "brendo",
+    "connector": "mongodb"
+  },
+  "filestore-mongo": {
+    "host": "",
+    "port": "", 
+    "url": "mongodb://brendo:brendo1996@cluster0-shard-00-00-f3jqu.mongodb.net:27017,cluster0-shard-00-01-f3jqu.mongodb.net:27017,cluster0-shard-00-02-f3jqu.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority",
+    "database": "riffa",
+    "password": "brendo1996",
+    "name": "filestore-mongo",
+    "user": "brendo",
+    "connector": "loopback-component-storage-mongo",
+    "provider": "filestore-mongo"
+  },
+  "emailDataSource": {
+    "name": "emailDataSource",
+    "connector": "mail",
+    "transports": [
+      {
+        "type": "smtp",
+        "host": "smtp.mailgun.org",
+        "secure": false,
+        "port": 587,
+        "tls": {
+          "rejectUnauthorized": false
+        },
+        "auth": {
+          "user": "postmaster@email.riffasbrasil.com",
+          "pass": "832193d66b7bd277de01093fb47c5a0e-f135b0f1-1a2de6df"
+          
+        }
+      }
+    ]
+  }
+}
+
