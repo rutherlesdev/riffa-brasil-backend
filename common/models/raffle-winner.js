@@ -13,7 +13,7 @@ module.exports = function (Rafflewinner) {
 
         for (let index = 0; index < data.maxWinners; index++) {
           Rafflewinner.create({
-            winningNumber: generateRandomNumber(data.maxOptions),
+            winningNumber: 100,
             isDeleted: false,
             raffleDrawId: data.id,
             createdAt: new Date(),
