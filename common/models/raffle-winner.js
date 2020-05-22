@@ -87,7 +87,7 @@ module.exports = function (Rafflewinner) {
   });
 
   function generateRandomNumber(end) {
-    return Math.floor(Math.random() * end) + 001;
+    return Math.floor(Math.random() * end) + 1;
   }
 
 };
