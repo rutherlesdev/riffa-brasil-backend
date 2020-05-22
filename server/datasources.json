@@ -34,8 +34,8 @@
           "rejectUnauthorized": false
         },
         "auth": {
-          "user": "postmaster@email.riffasbrasil.com",
-          "pass": "832193d66b7bd277de01093fb47c5a0e-f135b0f1-1a2de6df"
+          "user": "postmaster@sandboxd3bf416ef89842f6a06bef6e1f33bae8.mailgun.org",
+          "pass": "cf7cc498f29c6ab184f5b553b7296ad9-e5e67e3e-ca60ec7c"
           
         }
       }
