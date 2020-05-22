@@ -10,7 +10,7 @@ module.exports = function (Payment) {
   Payment.start = function (data, cb) {
     stripe.paymentIntents.create({
         amount: data.amount,
-        currency: data.currency
+        currency: 'brl',
       },
       function (err, clientSecret) {
         if (err) return cb(err)
